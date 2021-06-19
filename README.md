@@ -5,9 +5,9 @@ los pines a utilizar son los siguientes
 
 SD.begin(chipSelect, 23, 19, 18)
 
-chipSelect = 4
+chipSelect = 4;
 
-CS	GPIO 4
+CS	  GPIO 4
 MOSI	GPIO 23
-CLK	GPIO 18
+CLK	  GPIO 18
 MISO	GPIO 19
